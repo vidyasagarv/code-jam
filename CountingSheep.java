@@ -1,20 +1,9 @@
 import java.util.*;
 import java.io.*;
 public class CountingSheep {
-	private static Scanner sc;
-	private static PrintWriter out;
-	public static boolean SUBMIT = false;
-  	public static final String NAME = "A-small-attempt0";
 
 	public static void main(String[] args) {
-		// if (SUBMIT) {
-		// 	sc = new Scanner(new File(NAME + ".in"));
-		// 	out = new PrintWriter(new BufferedWriter(new FileWriter(NAME + ".out")));
-		// } else {
-		// 	sc = new Scanner(new BufferedReader(new InputStreamReader(System.in)));
-		// 	out = new PrintWriter(System.out, true);
-		// }
-		sc = new Scanner(new BufferedReader(new InputStreamReader(System.in)));	
+		Scanner sc = new Scanner(new BufferedReader(new InputStreamReader(System.in)));	
 		int t = sc.nextInt();
 		for (int i=0; i<t; ++i) {
 			int number = in.nextInt();
